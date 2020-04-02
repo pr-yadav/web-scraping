@@ -1,6 +1,6 @@
 # web-scraping
-Download scraping.py
-To see the output in terminal window
+#Download scraping.py
+#To see the output in terminal window
 Open terminal and enter
 python3 scrape.py |html2text|grep -v ',' |sed -r '/^\s*$/d' | sed 's/\[//' |sed 's/\]//'
 Press enter and type the url in next line
