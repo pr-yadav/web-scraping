@@ -6,4 +6,4 @@ python3 scrape.py |html2text|grep -v ',' |sed -r '/^\s*$/d' | sed 's/\[//' |sed 
 Press enter and type the url in next line<br/>
 <br/>
 <br/>
-To see the output in csv file add '>nameofcsvfile.csv' to the code<br/>
+To see the output in csv file add '>nameofcsvfile.csv' to the command<br/>
