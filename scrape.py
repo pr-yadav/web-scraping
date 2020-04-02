@@ -24,3 +24,7 @@ for student in students :
         print(project,end="\t")
     except Exception as error:
         print()
+        
+        
+#this code is not complete it will run and do the scraping but cannot export results to csv file bu the output in terminal
+#is really clean
