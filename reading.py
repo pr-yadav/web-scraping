@@ -29,16 +29,15 @@ cfile = input('Enter csv file path : ')
 with open(cfile, 'r') as file:
     reader = csv.reader(file)
     for row in reader:
-        str=row['Name']
-        oneword(row['Name'])
-        specialchar(row['Name'])
-        if ((row['Name']).islower() or not flag2  or flag1):
-            print(row['Name'])
-        
+        str=row[0]
+        oneword(row[0])
+        specialchar(row[0])
+        if ((row[0]).islower() or not flag2  or flag1):
+            print(row[0])
         flag1=0
         flag2=1
 #-----------------------------------------------------------------
-
+#assuming the format of csv file to be name(row[0]);organization(row[1]);project[row(2)]
 
 
 #printing the data
@@ -49,10 +48,13 @@ for data in jdata :
     print(data['n'],end=" ")
     print(data['i'],end=" ")
     print(data['p'],end=" ")
-    for row in reader:
-        if data['n']==row['Name'] :
-            print(row['Organisation'] ,end=" ")
-            print(row['Project'])
+    with open(cfile, 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            if data['n']==row[0] :
+                print(row[1] ,end=" ")
+                print(row[2])
+    print()
 
 
 #--------------------------------------------------
