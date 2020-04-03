@@ -14,4 +14,5 @@ To see the output in csv file add '>nameofcsvfile.csv' to the command<br/>
 #Part2
 Download reading,py <br/>
 Run in the terminal python3 reading.py<br/>
-Program will prompt for json file and csv file
+Program will prompt for json file and csv file<br/>
+Enter their full path when prompted and press enter
