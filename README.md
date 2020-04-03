@@ -10,6 +10,7 @@ Press enter and type the url in next line<br/>
 <br/>
 <br/>
 To see the output in csv file add '>nameofcsvfile.csv' to the command<br/>
+For settings see to screenshot
 
 
 #Part2
