@@ -23,7 +23,7 @@ for student in students :
         print(name,end=";")
         print(project,end=";")
     except Exception as error:
-        print()
+        print("")
         
         
 #this code is not complete it will run and do the scraping but cannot export results to csv file bu the output in terminal
