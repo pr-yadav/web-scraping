@@ -20,8 +20,8 @@ for student in students :
     try:
         name = (student.find('a')).get_text()
         project=(student.find_all('div'))
-        print(name,end="\t")
-        print(project,end="\t")
+        print(name,end=";")
+        print(project,end=";")
     except Exception as error:
         print()
         
